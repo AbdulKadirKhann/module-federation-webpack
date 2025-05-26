@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["webpack-env"],
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "DOM"],
+    "paths": {
+     "@/*": [
+      "./*"
+     ]
+    }
+  },
+  "include": ["src"]
+}
