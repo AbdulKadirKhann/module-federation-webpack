@@ -46,6 +46,7 @@ This will run this app on port 8081(You can change the port in webpack.config,js
 npm install
 npm run serve
 ```
+and open `localhost:8080`
 
 You can open individual remote apps via links mentioned in terminals.
 You can open the shell app and check that it displays List of users(users-app-vue3) and when you click on edit it opens a form where you can edit user info(edit-user-app-vue3)
